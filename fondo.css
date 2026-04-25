@@ -1,0 +1,9 @@
+body {background-color: rgb(192, 162, 127);}
+h1{color:rgba(243, 21, 5, 0.986) ;}
+p{color: darkkhaki;}
+#cuadrobroma{
+    position: absolute;/* permite que se mueva*/
+    transition: all 0.1s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
