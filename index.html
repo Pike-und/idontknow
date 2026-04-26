@@ -4,23 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POCSOFT INT</title>
+    <link rel="stylesheet"
+href="fondo.css">
 </head>
 <body>
-    <h3>UNIRSE</h3>
+    <h3>REGISTRARSE</h3>
+    <hr>
     <p>BIENVENIDO A POCSOFT</p>
-    <label for="US">Usuario:</label>
+    <label for="US">Correo electronico:</label>
     <input type="text" id="US"
-    name="Usuario"placeholder="">
+    name="Correo electronico"placeholder="">
     <br>
     <label for="CON">Contraseña:</label>
-   <input type="text" id="CON"
+   <input type="password" id="CON"
    name="Contraseña"placeholder="">
    <br>
-   <button>REGISTRARSE</button>
-   <button if REGISTRARSE 
-   button="JAKEADO PA"></button>
+   <br>
+   <hr><button
+    onclick="mi_aviso()">REGISTRARSE</button>
+
+    <script>
+    function mi_aviso() {
+        const usuario=
+        document.getElementById('US').value;
+        const contraseña=
+        document.getElementById('CON').value;
+        if(usuario==="" || contraseña==="") {
+        alert("INGRESA DATOS");
+        } else {
+            alert(".........");
+        }
+    }
+</script>
 
 </body>
-<link rel="stylesheet"
-href="fondo.css">
+
 </html>
