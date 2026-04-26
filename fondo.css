@@ -1,9 +1,5 @@
-body {background-color: rgb(192, 162, 127);}
-h1{color:rgba(243, 21, 5, 0.986) ;}
-p{color: darkkhaki;}
-#cuadrobroma{
-    position: absolute;/* permite que se mueva*/
-    transition: all 0.1s ease;
-    padding: 10px;
-    border-radius: 5px;
-}
+body {background-color: rgb(0, 0, 0);}
+h3{color:rgba(228, 228, 228, 0.986) ;}
+p{color: rgba(202, 201, 186, 0.849);}
+contraseña{color: rgb(227, 233, 238);}
+button{color: rgb(0, 0, 0);}
